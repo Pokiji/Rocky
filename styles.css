@@ -15,9 +15,11 @@ body {
     margin: 0rem;
     overflow: hidden;
     color: white;
+
   }
   
   #image-track {
+    margin-top: 30px;
     display: flex;
     gap: 4vmin;
     position: absolute;
@@ -42,6 +44,13 @@ body {
     text-transform: capitalize;
 }
 
+.main{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 
 
 
@@ -62,3 +71,16 @@ body {
     animation: drop-in 2s ease 300ms forwards;
    }
 
+@media only screen and (max-width: 600px) {
+  .title{
+    font-size: 3em;
+}
+
+
+
+.bio{
+  margin-top: 25px;
+  font: 1em;
+}
+
+}
